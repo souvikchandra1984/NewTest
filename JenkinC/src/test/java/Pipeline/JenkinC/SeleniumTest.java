@@ -10,7 +10,7 @@ public class SeleniumTest {
 	public void testfun1()
 	{
 		System.out.println("SeleniumTest");
-		System.setProperty("webdriver.gecko.driver", "D://Souvik//Selenium//Selenium Jar//geckodriver-v0.11.1-win64//geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "D://Souvik//Selenium//geckodriver-v0.19.1-win64//geckodriver.exe");
 		WebDriver d = new FirefoxDriver();
 		d.get("http://www.google.com");
 		System.out.println(d.getPageSource());
