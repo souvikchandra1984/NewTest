@@ -14,6 +14,7 @@ public class SeleniumTest {
 		System.out.println(d.getPageSource());
 		System.out.println(d.getWindowHandle());
 		//d.quit();
+		
 	}
 	
 }
