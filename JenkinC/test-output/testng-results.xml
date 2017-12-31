@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23008" started-at="2017-12-31T11:24:47Z" finished-at="2017-12-31T11:25:10Z">
+  <suite name="Suite" duration-ms="140781" started-at="2017-12-31T15:44:54Z" finished-at="2017-12-31T15:47:15Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="23008" started-at="2017-12-31T11:24:47Z" finished-at="2017-12-31T11:25:10Z">
+    <test name="Test" duration-ms="140781" started-at="2017-12-31T15:44:54Z" finished-at="2017-12-31T15:47:15Z">
+      <class name="Pipeline.JenkinC.SecondSelTest">
+        <test-method status="PASS" signature="SelTe()[pri:0, instance:Pipeline.JenkinC.SecondSelTest@6d00a15d]" name="SelTe" duration-ms="49816" started-at="2017-12-31T21:16:25Z" finished-at="2017-12-31T21:17:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelTe -->
+      </class> <!-- Pipeline.JenkinC.SecondSelTest -->
       <class name="Pipeline.JenkinC.SeleniumTest">
-        <test-method status="PASS" signature="testfun1()[pri:0, instance:Pipeline.JenkinC.SeleniumTest@643b1d11]" name="testfun1" duration-ms="22973" started-at="2017-12-31T16:54:47Z" finished-at="2017-12-31T16:55:10Z">
+        <test-method status="PASS" signature="testfun1()[pri:0, instance:Pipeline.JenkinC.SeleniumTest@4520ebad]" name="testfun1" duration-ms="90935" started-at="2017-12-31T21:14:54Z" finished-at="2017-12-31T21:16:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testfun1 -->

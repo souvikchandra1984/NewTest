@@ -1,22 +1,21 @@
 package Pipeline.JenkinC;
-import org.testng.annotations.Test;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 
 @Test
-public class SeleniumTest {
-  
-	@Test
-	public void testfun1()
+public class SecondSelTest {
+
+	public void SelTe()
 	{
-		System.out.println("SeleniumTest");
+		
+		System.out.println("SecondSelTest");
 		System.setProperty("webdriver.gecko.driver", "D://Souvik//Selenium//Selenium Jar//geckodriver-v0.11.1-win64//geckodriver.exe");
 		WebDriver d = new FirefoxDriver();
 		d.get("http://www.google.com");
 		System.out.println(d.getPageSource());
 		System.out.println(d.getWindowHandle());
-		//d.quit();
-		
 		
 	}
 	
