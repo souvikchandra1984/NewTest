@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="73.013" tests="2" errors="0" skipped="0" failures="2">
+<testsuite name="TestSuite" time="115.158" tests="2" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="Jeva_Maven_Test"/>
@@ -13,7 +13,7 @@
     <property name="POM_ARTIFACTID" value="JenkinC"/>
     <property name="os.name" value="Windows 7"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_74\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -29,8 +29,8 @@
     <property name="NODE_PATH" value="C:\Program Files\nodejs\node_modules"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="Jeva_Maven_Test"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Jeva_Maven_Test/7/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Jeva_Maven_Test/9/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#9"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_74\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\windows\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.8.0_74"/>
@@ -40,7 +40,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="7"/>
+    <property name="BUILD_ID" value="9"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -54,7 +54,7 @@
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_74\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="6.1"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Jeva_Maven_Test/7/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Jeva_Maven_Test/9/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\windows\TEMP"/>
     <property name="path.separator" value=";"/>
@@ -76,7 +76,7 @@
     <property name="POM_GROUPID" value="Pipeline"/>
     <property name="user.home" value="C:\windows\system32\config\systemprofile"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-Jeva_Maven_Test-7"/>
+    <property name="BUILD_TAG" value="jenkins-Jeva_Maven_Test-9"/>
     <property name="JENKINS_SERVER_COOKIE" value="d41c9480d71beb68"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -90,7 +90,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="D:\Souvik\Selenium\apache-maven-3.5.2-bin\apache-maven-3.5.2"/>
     <property name="java.class.path" value="C:\Users\552366\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;D:\Souvik\Selenium\apache-maven-3.5.2-bin\apache-maven-3.5.2\boot\plexus-classworlds-2.5.2.jar;D:\Souvik\Selenium\apache-maven-3.5.2-bin\apache-maven-3.5.2/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main D:\Souvik\Selenium\apache-maven-3.5.2-bin\apache-maven-3.5.2 C:\Users\552366\.jenkins\war\WEB-INF\lib\remoting-3.14.jar C:\Users\552366\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\552366\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 54326"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main D:\Souvik\Selenium\apache-maven-3.5.2-bin\apache-maven-3.5.2 C:\Users\552366\.jenkins\war\WEB-INF\lib\remoting-3.14.jar C:\Users\552366\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\552366\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 51324"/>
     <property name="ISIS_COMMON" value="C:\Program Files (x86)\Common Files\ISIS\isiscomm\"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_74/bin;C:\Program Files (x86)\Common Files\ISIS\isiscomm\w3\lib;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\Program Files\nodejs\;"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -106,7 +106,7 @@
     <property name="HUDSON_HOME" value="C:\Users\552366\.jenkins"/>
     <property name="PATH+MAVEN" value="D:\Souvik\Selenium\apache-maven-3.5.2-bin\apache-maven-3.5.2/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Jeva_Maven_Test/7/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Jeva_Maven_Test/9/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -120,7 +120,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="MAVEN_HOME" value="D:\Souvik\Selenium\apache-maven-3.5.2-bin\apache-maven-3.5.2"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="7"/>
+    <property name="BUILD_NUMBER" value="9"/>
     <property name="BASE" value="C:\Users\552366\.jenkins"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="4e03"/>
@@ -136,8 +136,8 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\AWS Tools\PowerShell\"/>
   </properties>
-  <testcase name="testfun1" classname="Pipeline.JenkinC.SeleniumTest" time="36.506">
-    <failure message="Process unexpectedly closed with status: 0&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;LT059498&apos;, ip: &apos;192.168.43.244&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_74&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: stack backtrace:&#10;   0:           0x47e934 - &lt;no info&gt;&#10;   1:           0x47f0a3 - &lt;no info&gt;&#10;   2:           0x442649 - &lt;no info&gt;&#10;   3:           0x449cc3 - &lt;no info&gt;&#10;   4:           0x42a890 - &lt;no info&gt;&#10;   5:           0x406f5e - &lt;no info&gt;&#10;   6:           0x40cfc9 - &lt;no info&gt;&#10;   7:           0x6bef19 - &lt;no info&gt;&#10;   8:           0x420756 - &lt;no info&gt;&#10;   9:           0x6b96e0 - &lt;no info&gt;&#10;  10:         0x775759cd - BaseThreadInitThunk" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+  <testcase name="SelTe" classname="Pipeline.JenkinC.SecondSelTest" time="57.579">
+    <failure message="Process unexpectedly closed with status: 0&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;LT059498&apos;, ip: &apos;192.168.43.244&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_74&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: stack backtrace:&#10;   0:           0x47e934 - &lt;no info&gt;&#10;   1:           0x47f0a3 - &lt;no info&gt;&#10;   2:           0x442649 - &lt;no info&gt;&#10;   3:           0x449cc3 - &lt;no info&gt;&#10;   4:           0x42a890 - &lt;no info&gt;&#10;   5:           0x406f5e - &lt;no info&gt;&#10;   6:           0x40cfc9 - &lt;no info&gt;&#10;   7:           0x6bef19 - &lt;no info&gt;&#10;   8:           0x420756 - &lt;no info&gt;&#10;   9:           0x6b96e0 - &lt;no info&gt;&#10;  10:         0x772659cd - BaseThreadInitThunk" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
 Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
 System info: host: 'LT059498', ip: '192.168.43.244', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_74'
 Driver info: driver.version: FirefoxDriver
@@ -152,90 +152,7 @@ remote stacktrace: stack backtrace:
    7:           0x6bef19 - <no info>
    8:           0x420756 - <no info>
    9:           0x6b96e0 - <no info>
-  10:         0x775759cd - BaseThreadInitThunk
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
-	at Pipeline.JenkinC.SeleniumTest.testfun1(SeleniumTest.java:14)
-]]></failure>
-    <system-out><![CDATA[SeleniumTest
-SecondSelTest
-]]></system-out>
-    <system-err><![CDATA[1514742528914	geckodriver	INFO	geckodriver 0.19.1
-1514742528955	geckodriver	INFO	Listening on 127.0.0.1:11201
-1514742529020	geckodriver	INFO	geckodriver 0.19.1
-1514742529055	geckodriver	INFO	Listening on 127.0.0.1:32893
-1514742530293	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\windows\\TEMP\\rust_mozprofile.Knd4TH52XSAH"
-1514742530295	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\windows\\TEMP\\rust_mozprofile.Z1Kb7Del0GSC"
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
-
-JavaScript error: resource://app/modules/ContentCrashHandle
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
-
-
-###!!! [Pars.jsm, line 137: TypeError: browser.permanentKey is not a non-null object
-
-###!!! [Parent][MessageChannel] Error: r(msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cent][MessageChannel] Error: (msgtype=0x2C0092,name=PBannot srowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
-
-e
-###!!! [Parend/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
-
-nt][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
-
-JavaScript error: resource://app/modules/ContentCrashHandlers.jsm, line 137: TypeError: browser.permanentKey is not a non-null object
-1514742551783	Marionette	INFO	Listening on port 2828
-1514742551799	Marionette	INFO	Listening on port 2828
-]]></system-err>
-  </testcase>
-  <testcase name="SelTe" classname="Pipeline.JenkinC.SecondSelTest" time="36.507">
-    <failure message="Process unexpectedly closed with status: 0&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;LT059498&apos;, ip: &apos;192.168.43.244&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_74&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: stack backtrace:&#10;   0:           0x47e934 - &lt;no info&gt;&#10;   1:           0x47f0a3 - &lt;no info&gt;&#10;   2:           0x442649 - &lt;no info&gt;&#10;   3:           0x449cc3 - &lt;no info&gt;&#10;   4:           0x42a890 - &lt;no info&gt;&#10;   5:           0x406f5e - &lt;no info&gt;&#10;   6:           0x40cfc9 - &lt;no info&gt;&#10;   7:           0x6bef19 - &lt;no info&gt;&#10;   8:           0x420756 - &lt;no info&gt;&#10;   9:           0x6b96e0 - &lt;no info&gt;&#10;  10:         0x775759cd - BaseThreadInitThunk" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'LT059498', ip: '192.168.43.244', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_74'
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: stack backtrace:
-   0:           0x47e934 - <no info>
-   1:           0x47f0a3 - <no info>
-   2:           0x442649 - <no info>
-   3:           0x449cc3 - <no info>
-   4:           0x42a890 - <no info>
-   5:           0x406f5e - <no info>
-   6:           0x40cfc9 - <no info>
-   7:           0x6bef19 - <no info>
-   8:           0x420756 - <no info>
-   9:           0x6b96e0 - <no info>
-  10:         0x775759cd - BaseThreadInitThunk
+  10:         0x772659cd - BaseThreadInitThunk
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -262,6 +179,89 @@ remote stacktrace: stack backtrace:
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
 	at Pipeline.JenkinC.SecondSelTest.SelTe(SecondSelTest.java:15)
+]]></failure>
+    <system-out><![CDATA[SecondSelTest
+SeleniumTest
+]]></system-out>
+    <system-err><![CDATA[1514779532489	geckodriver	INFO	geckodriver 0.19.1
+1514779532536	geckodriver	INFO	Listening on 127.0.0.1:15530
+1514779533069	geckodriver	INFO	geckodriver 0.19.1
+1514779533131	geckodriver	INFO	Listening on 127.0.0.1:7300
+1514779534301	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\windows\\TEMP\\rust_mozprofile.dLccREMpL2gW"
+1514779534301	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\windows\\TEMP\\rust_mozprofile.9YvZHvYTmRpt"
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://app/modules/ContentCrashHandlers.jsm, line 137: TypeError: browser.permanentKey is not a non-null object
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://app/modules/ContentCrashHandlers.jsm, line 137: TypeError: browser.permanentKey is not a non-null object
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+1514779575348	Marionette	INFO	Listening on port 2828
+1514779575357	Marionette	INFO	Listening on port 2828
+]]></system-err>
+  </testcase>
+  <testcase name="testfun1" classname="Pipeline.JenkinC.SeleniumTest" time="57.579">
+    <failure message="Process unexpectedly closed with status: 0&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;LT059498&apos;, ip: &apos;192.168.43.244&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_74&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: stack backtrace:&#10;   0:           0x47e934 - &lt;no info&gt;&#10;   1:           0x47f0a3 - &lt;no info&gt;&#10;   2:           0x442649 - &lt;no info&gt;&#10;   3:           0x449cc3 - &lt;no info&gt;&#10;   4:           0x42a890 - &lt;no info&gt;&#10;   5:           0x406f5e - &lt;no info&gt;&#10;   6:           0x40cfc9 - &lt;no info&gt;&#10;   7:           0x6bef19 - &lt;no info&gt;&#10;   8:           0x420756 - &lt;no info&gt;&#10;   9:           0x6b96e0 - &lt;no info&gt;&#10;  10:         0x772659cd - BaseThreadInitThunk" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'LT059498', ip: '192.168.43.244', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_74'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x47e934 - <no info>
+   1:           0x47f0a3 - <no info>
+   2:           0x442649 - <no info>
+   3:           0x449cc3 - <no info>
+   4:           0x42a890 - <no info>
+   5:           0x406f5e - <no info>
+   6:           0x40cfc9 - <no info>
+   7:           0x6bef19 - <no info>
+   8:           0x420756 - <no info>
+   9:           0x6b96e0 - <no info>
+  10:         0x772659cd - BaseThreadInitThunk
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+	at Pipeline.JenkinC.SeleniumTest.testfun1(SeleniumTest.java:14)
 ]]></failure>
   </testcase>
 </testsuite>

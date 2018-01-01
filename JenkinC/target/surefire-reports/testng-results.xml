@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="2" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="36524" started-at="2017-12-31T17:48:47Z" finished-at="2017-12-31T17:49:24Z">
+  <suite name="Suite" duration-ms="57579" started-at="2018-01-01T04:05:30Z" finished-at="2018-01-01T04:06:28Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="36524" started-at="2017-12-31T17:48:47Z" finished-at="2017-12-31T17:49:24Z">
+    <test name="Test" duration-ms="57579" started-at="2018-01-01T04:05:30Z" finished-at="2018-01-01T04:06:28Z">
       <class name="Pipeline.JenkinC.SecondSelTest">
-        <test-method status="FAIL" signature="SelTe()[pri:0, instance:Pipeline.JenkinC.SecondSelTest@4cdbe50f]" name="SelTe" duration-ms="36452" started-at="2017-12-31T23:18:47Z" finished-at="2017-12-31T23:19:24Z">
+        <test-method status="FAIL" signature="SelTe()[pri:0, instance:Pipeline.JenkinC.SecondSelTest@4cdbe50f]" name="SelTe" duration-ms="57517" started-at="2018-01-01T09:35:30Z" finished-at="2018-01-01T09:36:28Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Process unexpectedly closed with status: 0
@@ -25,7 +25,7 @@ remote stacktrace: stack backtrace:
    7:           0x6bef19 - <no info>
    8:           0x420756 - <no info>
    9:           0x6b96e0 - <no info>
-  10:         0x775759cd - BaseThreadInitThunk]]>
+  10:         0x772659cd - BaseThreadInitThunk]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
@@ -43,7 +43,7 @@ remote stacktrace: stack backtrace:
    7:           0x6bef19 - <no info>
    8:           0x420756 - <no info>
    9:           0x6b96e0 - <no info>
-  10:         0x775759cd - BaseThreadInitThunk
+  10:         0x772659cd - BaseThreadInitThunk
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -91,7 +91,7 @@ remote stacktrace: stack backtrace:
         </test-method> <!-- SelTe -->
       </class> <!-- Pipeline.JenkinC.SecondSelTest -->
       <class name="Pipeline.JenkinC.SeleniumTest">
-        <test-method status="FAIL" signature="testfun1()[pri:0, instance:Pipeline.JenkinC.SeleniumTest@7d417077]" name="testfun1" duration-ms="36452" started-at="2017-12-31T23:18:47Z" finished-at="2017-12-31T23:19:24Z">
+        <test-method status="FAIL" signature="testfun1()[pri:0, instance:Pipeline.JenkinC.SeleniumTest@7d417077]" name="testfun1" duration-ms="57517" started-at="2018-01-01T09:35:30Z" finished-at="2018-01-01T09:36:28Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Process unexpectedly closed with status: 0
@@ -109,7 +109,7 @@ remote stacktrace: stack backtrace:
    7:           0x6bef19 - <no info>
    8:           0x420756 - <no info>
    9:           0x6b96e0 - <no info>
-  10:         0x775759cd - BaseThreadInitThunk]]>
+  10:         0x772659cd - BaseThreadInitThunk]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
@@ -127,7 +127,7 @@ remote stacktrace: stack backtrace:
    7:           0x6bef19 - <no info>
    8:           0x420756 - <no info>
    9:           0x6b96e0 - <no info>
-  10:         0x775759cd - BaseThreadInitThunk
+  10:         0x772659cd - BaseThreadInitThunk
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)

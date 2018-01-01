@@ -147,7 +147,7 @@ remote stacktrace: stack backtrace:
    7:           0x6bef19 - &lt;no info&gt;
    8:           0x420756 - &lt;no info&gt;
    9:           0x6b96e0 - &lt;no info&gt;
-  10:         0x775759cd - BaseThreadInitThunk
+  10:         0x772659cd - BaseThreadInitThunk
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
 	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
@@ -188,7 +188,7 @@ remote stacktrace: stack backtrace:
    7:           0x6bef19 - &lt;no info&gt;
    8:           0x420756 - &lt;no info&gt;
    9:           0x6b96e0 - &lt;no info&gt;
-  10:         0x775759cd - BaseThreadInitThunk
+  10:         0x772659cd - BaseThreadInitThunk
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -260,7 +260,7 @@ remote stacktrace: stack backtrace:
    7:           0x6bef19 - &lt;no info&gt;
    8:           0x420756 - &lt;no info&gt;
    9:           0x6b96e0 - &lt;no info&gt;
-  10:         0x775759cd - BaseThreadInitThunk
+  10:         0x772659cd - BaseThreadInitThunk
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
 	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
@@ -301,7 +301,7 @@ remote stacktrace: stack backtrace:
    7:           0x6bef19 - &lt;no info&gt;
    8:           0x420756 - &lt;no info&gt;
    9:           0x6b96e0 - &lt;no info&gt;
-  10:         0x775759cd - BaseThreadInitThunk
+  10:         0x772659cd - BaseThreadInitThunk
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -402,13 +402,13 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testfun1')
-data.setCell(0, 2, 'Pipeline.JenkinC.SeleniumTest')
-data.setCell(0, 3, 36452);
+data.setCell(0, 1, 'SelTe')
+data.setCell(0, 2, 'Pipeline.JenkinC.SecondSelTest')
+data.setCell(0, 3, 57517);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'SelTe')
-data.setCell(1, 2, 'Pipeline.JenkinC.SecondSelTest')
-data.setCell(1, 3, 36452);
+data.setCell(1, 1, 'testfun1')
+data.setCell(1, 2, 'Pipeline.JenkinC.SeleniumTest')
+data.setCell(1, 3, 57517);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -439,20 +439,20 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Pipeline.JenkinC.SeleniumTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testfun1</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">Pipeline.JenkinC.SecondSelTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">SelTe</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Pipeline.JenkinC.SeleniumTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testfun1</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
